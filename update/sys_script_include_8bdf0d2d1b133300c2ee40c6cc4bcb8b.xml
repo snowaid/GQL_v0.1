@@ -2,34 +2,34 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_64935_gql.GQL</api_name>
+        <api_name>x_64935_gql.GQL1</api_name>
         <client_callable>true</client_callable>
         <description>GQL (Glide Query Language) Class : Adding Description</description>
-        <name>GQL</name>
+        <name>GQL1</name>
         <script><![CDATA[/**
-* GQL (Glide Query Language) Class
+* GQL1 (Glide Query Language) Class
 *
 * MIT License http://tldrlegal.com/l/mit
 * Copyright (c) 2016 John.Chun @snowaid.com
 Adding Comment to capture in Github
 */
 
-var GQL = Class.create();
-GQL.prototype = {
+var GQL1 = Class.create();
+GQL1.prototype = {
     initialize: function(format) {
 		this.format = format || 'JSAN';  // { JSAN | JSON }
 	},
-    type: 'GQL'
+    type: 'GQL1'
 };
 
 /**
-* Takes a GQL statement and returns the resultset in an array of records
+* Takes a GQL1 statement and returns the resultset in an array of records
 *
-* @param {string} gql - GQL statement
+* @param {string} gql - GQL1 statement
 * @return {object} resultset in an array of records
 */
 
-GQL.prototype.query = function(gql, format) {
+GQL1.prototype.query = function(gql, format) {
 
 	// prep params
 	gql = gql.replace(/\s*--.*/g, '');  // remove comments
@@ -86,16 +86,16 @@ GQL.prototype.query = function(gql, format) {
 
 ]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
-        <sys_created_by>john.chun</sys_created_by>
-        <sys_created_on>2016-10-17 23:35:12</sys_created_on>
-        <sys_id>37674ed14fa2a600463efd218110c700</sys_id>
-        <sys_mod_count>78</sys_mod_count>
-        <sys_name>GQL</sys_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-16 01:51:09</sys_created_on>
+        <sys_id>8bdf0d2d1b133300c2ee40c6cc4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GQL1</sys_name>
         <sys_package display_value="gql" source="x_64935_gql">a4d8ddd54f62a600463efd218110c731</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="gql">a4d8ddd54f62a600463efd218110c731</sys_scope>
-        <sys_update_name>sys_script_include_37674ed14fa2a600463efd218110c700</sys_update_name>
+        <sys_update_name>sys_script_include_8bdf0d2d1b133300c2ee40c6cc4bcb8b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-16 01:48:57</sys_updated_on>
+        <sys_updated_on>2019-08-16 01:51:09</sys_updated_on>
     </sys_script_include>
 </record_update>
