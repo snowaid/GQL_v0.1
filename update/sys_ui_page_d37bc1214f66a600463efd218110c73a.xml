@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_page">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
     <sys_ui_page action="INSERT_OR_UPDATE">
         <category>general</category>
         <client_script><![CDATA[/**
@@ -80,13 +79,11 @@ footer { color:gray; font-size:9pt; text-align:center; position:fixed; bottom:0;
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>john.chun</sys_created_by>
         <sys_created_on>2016-10-18 13:52:56</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>d37bc1214f66a600463efd218110c73a</sys_id>
         <sys_mod_count>130</sys_mod_count>
         <sys_name>pad</sys_name>
         <sys_package display_value="gql" source="x_64935_gql">a4d8ddd54f62a600463efd218110c731</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="gql">a4d8ddd54f62a600463efd218110c731</sys_scope>
         <sys_update_name>sys_ui_page_d37bc1214f66a600463efd218110c73a</sys_update_name>
         <sys_updated_by>john.chun</sys_updated_by>
